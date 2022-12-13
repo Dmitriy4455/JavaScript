@@ -71,3 +71,6 @@ let price;
 // 	}
 // }
 // console.log("Total", total);
+
+const frends = [];
+console.log(frends);
