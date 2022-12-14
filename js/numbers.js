@@ -11,7 +11,7 @@
 // console.log(salary);
 // console.log(Number(salary.toFixed(1)));
 
-// Calculate power
+// // Calculate power
 
 // let base = prompt("Gen Number");
 // base = Number(base);
@@ -24,7 +24,7 @@
 // const result = base ** power;
 // console.log(result);
 
-// Generate random number
+// // Generate random number
 // --Math.random
 // --Math.round
 // const max = 2;
