@@ -87,21 +87,21 @@
 // fn(1, 2, 3, 4, 5);
 // fn(1, 2, 3, 4, 5, 6, 7);
 
-// 1. Arguments
-const filterNumbers = function (array, ...args) {
-	console.log("array", array);
-	console.log("args", args);
-	const uniqueElement = [];
+// // 1. Arguments
+// const filterNumbers = function (array, ...args) {
+// 	console.log("array", array);
+// 	console.log("args", args);
+// 	const uniqueElement = [];
 
-	for (const element of array) {
-		if (args.includes(element)) {
-			uniqueElement.push(element);
+// 	for (const element of array) {
+// 		if (args.includes(element)) {
+// 			uniqueElement.push(element);
 
-			console.log(`${element} is found`);
-		}
-	}
-	return uniqueElement;
-};
-console.log(filterNumbers([1, 2, 3, 4, 5], 10, 15, 2, 3, 8));
-console.log(filterNumbers([10, 15, 20, 25, 30], 23, 30, 18, 15));
-console.log(filterNumbers([100, 200, 300, 400, 500], 7, 12, 200, 64));
+// 			console.log(`${element} is found`);
+// 		}
+// 	}
+// 	return uniqueElement;
+// };
+// console.log(filterNumbers([1, 2, 3, 4, 5], 10, 15, 2, 3, 8));
+// console.log(filterNumbers([10, 15, 20, 25, 30], 23, 30, 18, 15));
+// console.log(filterNumbers([100, 200, 300, 400, 500], 7, 12, 200, 64));

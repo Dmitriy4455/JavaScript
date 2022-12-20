@@ -1,0 +1,19 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "<!-- {\r   \"printWidth\": 80,\r   \"tabWidth\": 2,\r   \"useTabs\": false,\r   \"semi\": true,\r   \"singleQuote\": true,\r   \"trailingComa\": \"all\",\r   \"bracketSpacing\": true,\r   \"jsxBracketSameLine\": false,\r   \"arrowParens\": \"avoid\",\r   \"proseWrap\": \"always\"\r } -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitriy4455/javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmitriy4455/javascript/issues"
+  },
+  "homepage": "https://github.com/Dmitriy4455/javascript#readme"
+}
