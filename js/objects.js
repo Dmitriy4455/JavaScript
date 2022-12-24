@@ -1,14 +1,25 @@
-const apartment = {
-  descr: "Spacious apartment in the city center",
-  rating: 4,
-  price: 2153,
+const playlist = {
+	name: "My super playlist",
+	rating: 5,
+	tracks: ["track-1, track-2, track-3"],
+	trackCount: 3,
+	changeName(newName) {
+		console.log(this);
+		this.name = newName;
+	},
+	addTrack(track) {
+		this.tracks.push(track);
+		this.trackCount = this.tracks.length;
+	},
+	updateRating(newRating) {
+		this.rating = newRating;
+	},
 };
-const keys = [];
-const values = [];
-// Change code below this line
-for (const key in apartment) {
-  keys.push(key),
-}
-for (const value in apartment) {
-  values.push(value)
-}
+
+playlist.changeName("New name");
+
+playlist.addTrack("New Track");
+
+playlist.updateRating(4);
+
+console.log(playlist);
