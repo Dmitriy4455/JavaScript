@@ -94,26 +94,33 @@
 
 // window.navigator.geolocation.getCurrentPosition(onGetPositionSuccesss, onGetPositionError);
 
-const makeDidh = function (sheffName, dish) {
-	console.log(`${shifName} cooks ${dish}`);
-};
+// const makeDidh = function (sheffName, dish) {
+// 	console.log(`${shifName} cooks ${dish}`);
+// };
 
-makeDish("Mango", "pie");
-makeDish("Mango", "omlett");
-makeDish("Mango", "tea");
+// makeDish("Mango", "pie");
+// makeDish("Mango", "omlett");
+// makeDish("Mango", "tea");
 
-makeDish("Poly", "maetballs");
-makeDish("Poly", "soup");
-makeDish("Poly", "coffee");
+// makeDish("Poly", "maetballs");
+// makeDish("Poly", "soup");
+// makeDish("Poly", "coffee");
 
-const makeShiff = function (name) {
-	const makeDish = function (dish) {
-		console.log(`${name} cooks ${dish}`);
-	};
-	return makeDish;
-};
-const Mango = makeShiff("Mangj");
-console.log(Mango);
+// const makeShiff = function (name) {
+// 	const makeDish = function (dish) {
+// 		console.log(`${name} cooks ${dish}`);
+// 	};
+// 	return makeDish;
+// };
+// const Mango = makeShiff("Mangj");
+// console.log(Mango);
 
-Mango("pie");
-Mango("tea");
+// Mango("pie");
+// Mango("tea");
+
+// const numbers = [5, 10, 15, 20, 25];
+// const doubledNumbers = numbers.map(number => number * 2);
+// console.log("numbers", numbers);
+// console.log("doubledNumbers", doubledNumbers);
+
+// const filteredNumbers = numbers.filter(number => number < 15 || number > 20);
